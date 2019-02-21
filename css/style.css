@@ -11,6 +11,18 @@ body {
   text-align: center;
 }
 
+.section-title {
+  font-size: 3em;
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+
+.section-subtitle {
+  font-size: 1em;
+  margin: 0 0 3em 0;
+  color: #747d8c;
+}
+
 /* Navigation */
 .navigation {
   display: -ms-flexbox;
