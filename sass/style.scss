@@ -126,15 +126,13 @@ body {
 
 .services-icon {
     font-size: 2em;
+    line-height: 2em;
     width: 2em;
     height: 2em;
     background-color: #fff;
     color: #5758BB;
     border: #5758BB solid 2px;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .services p:first-of-type {
