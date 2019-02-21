@@ -264,7 +264,6 @@ body {
       flex-direction: column;
   -ms-flex-pack: center;
       justify-content: center;
-  height: 100%;
 }
 
 .portfolio-title {
@@ -283,6 +282,8 @@ body {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .media {
@@ -309,5 +310,35 @@ body {
   background-color: #5758BB;
   color: #fff;
   border-radius: 50%;
+}
+
+/* Media */
+@media (max-width: 767px) {
+  .nav-list {
+    width: 100%;
+    padding: 0 5px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+  .brand-name {
+    margin-right: 10px;
+  }
+  .page-title {
+    font-size: 2em;
+  }
+  .page-subtitle {
+    font-size: 1em;
+  }
+  .page-subtitle, .page-title {
+    margin: 0 0 5px 0;
+  }
+  .btn {
+    min-width: 6em;
+    font-size: 18px;
+    padding: 0.5em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
