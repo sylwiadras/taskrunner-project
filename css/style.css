@@ -29,4 +29,65 @@
 .brand-name {
   padding-right: 20em;
 }
+
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url(../images/splash.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.splash::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.2;
+}
+
+.splash-inner {
+  text-align: center;
+  position: absolute;
+}
+
+.page-title, .page-subtitle {
+  color: #fff;
+  margin: 0 0 1em 0;
+}
+
+.page-title {
+  font-size: 2em;
+}
+
+.page-subtitle {
+  font-size: 4em;
+}
+
+.btn {
+  display: inline-block;
+  width: 10em;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #5758BB;
+  text-align: center;
+  border: none;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
