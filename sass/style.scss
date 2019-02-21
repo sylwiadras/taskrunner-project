@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 /* Navigation */
 
 .navigation {
     display: flex;
     justify-content: center;
+    width: 100%;
+    top: 0;
+    position: absolute;
 }
 
 .nav-list {
@@ -25,7 +32,7 @@
 }
 
 .brand-name {
-    padding-right: 20em;
+    margin-right: 20em;
 }
 
 /* Splash */
@@ -74,7 +81,7 @@
 
 .btn {
     display: inline-block;
-    width: 10em;
+    width: 12em;
     padding: 1em;
     border-radius: 5px;
     background-color: #5758BB;
@@ -85,4 +92,5 @@
 .btn-link {
     text-decoration: none;
     color: #fff;
+    font-size: 1.5em;
 }
