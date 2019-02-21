@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  font-family: 'Slabo 27px', serif;
 }
 
 .section-title, .section-subtitle {
@@ -25,6 +26,16 @@ body {
 
 .row {
   text-align: center;
+}
+
+.nav-link, .page-title, .btn, .section-title, .services-title, .portfolio-title {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+.page-subtitle, .section-subtitle, .portfolio-subtitle {
+  font-style: italic;
+  font-weight: lighter;
 }
 
 /* Navigation */
@@ -55,6 +66,9 @@ body {
 
 .brand-name {
   margin-right: 20em;
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+  color: #5758BB;
 }
 
 /* Splash */
@@ -95,11 +109,11 @@ body {
   margin: 0 0 1em 0;
 }
 
-.page-title {
+.page-subtitle {
   font-size: 2em;
 }
 
-.page-subtitle {
+.page-title {
   font-size: 4em;
 }
 
