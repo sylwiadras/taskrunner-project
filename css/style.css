@@ -23,6 +23,10 @@ body {
   color: #747d8c;
 }
 
+.row {
+  text-align: center;
+}
+
 /* Navigation */
 .navigation {
   display: -ms-flexbox;
@@ -112,6 +116,39 @@ body {
 .btn-link {
   text-decoration: none;
   color: #fff;
+  font-size: 1.5em;
+}
+
+/* Services */
+.services-column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.services-icon {
+  font-size: 2em;
+  width: 2em;
+  height: 2em;
+  background-color: #fff;
+  color: #5758BB;
+  border: #5758BB solid 2px;
+  border-radius: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.services p:first-of-type {
+  font-weight: bold;
   font-size: 1.5em;
 }
 /*# sourceMappingURL=style.css.map */
