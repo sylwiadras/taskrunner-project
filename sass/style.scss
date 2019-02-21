@@ -141,3 +141,101 @@ body {
     font-weight: bold;
     font-size: 1.5em;
 }
+
+/* Portfolio */
+
+.portfolio {
+    background-color: #f1f2f6;
+}
+
+.portfolio-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1em;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.portfolio-img {
+    height: 300px;
+    position: relative;
+}
+
+.portfolio-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-img::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+}
+
+.portfolio-img:hover::before {
+    opacity: 0.5;
+}
+
+.img1::after, .img2::after, .img3::after, .img4::after, .img5::after, .img6::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    min-height: 50px;
+    border: #fff solid 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #fff;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.img1:hover::after, .img2:hover::after, .img3:hover::after, .img4:hover::after, .img5:hover::after, .img6:hover::after {
+    opacity: 1;
+}
+
+.img1::after {
+    content: 'Laughing';
+}
+
+.img2::after {
+    content: 'Play with light';
+}
+
+.img3::after {
+    content: 'Dip kiss';
+}
+
+.img4::after {
+    content: 'Bride and groom';
+}
+
+.img5::after {
+    content: 'With coffee';
+}
+
+.img6::after {
+    content: 'Play with leaves';
+}
+
+.portfolio-title {
+    font-size: 2em;
+    margin: 0.5em 0 0 0;
+}
+
+.portfolio-subtitle {
+    font-style: italic;
+    margin: 0 0 1em 0;
+}
