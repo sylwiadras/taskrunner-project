@@ -55,7 +55,7 @@ body {
   -ms-flex-pack: justify;
       justify-content: space-between;
   list-style-type: none;
-  padding: 0 2em;
+  padding: 0 12px;
   width: 80%;
 }
 
@@ -65,9 +65,9 @@ body {
 }
 
 .brand-name {
-  margin-right: 20em;
+  margin-right: 150px;
   font-family: 'Lobster', cursive;
-  font-size: 2em;
+  font-size: 30px;
   color: #5758BB;
 }
 
@@ -119,18 +119,16 @@ body {
 
 .btn {
   display: inline-block;
-  min-width: 12em;
-  padding: 1em;
+  min-width: 200px;
+  height: 50px;
+  padding: 1px;
   border-radius: 5px;
   background-color: #5758BB;
   text-align: center;
   border: none;
-}
-
-.btn-link {
   text-decoration: none;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 18px;
 }
 
 /* Services */
@@ -316,15 +314,15 @@ body {
 @media (max-width: 767px) {
   .nav-list {
     width: 100%;
-    padding: 0 5px;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .nav-link {
-    font-size: 14px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
   }
   .brand-name {
-    margin-right: 10px;
+    margin-right: 0;
   }
   .page-title {
     font-size: 2em;
@@ -336,9 +334,12 @@ body {
     margin: 0 0 5px 0;
   }
   .btn {
-    min-width: 6em;
-    font-size: 18px;
-    padding: 0.5em;
+    min-width: 130px;
+    font-size: 14px;
+    padding: 5px;
+  }
+  .media {
+    padding-left: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
