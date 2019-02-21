@@ -1,0 +1,32 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Navigation */
+.navigation {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.nav-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  list-style-type: none;
+  padding: 0 2em;
+  width: 80%;
+}
+
+.nav-link, .brand-name {
+  text-decoration: none;
+  color: #fff;
+}
+
+.brand-name {
+  padding-right: 20em;
+}
+/*# sourceMappingURL=style.css.map */
