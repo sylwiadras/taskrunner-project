@@ -39,8 +39,6 @@ body {
     font-weight: lighter;
 }
 
-
-
 /* Navigation */
 
 .navigation {
@@ -117,7 +115,7 @@ body {
 
 .btn {
     display: inline-block;
-    width: 12em;
+    min-width: 12em;
     padding: 1em;
     border-radius: 5px;
     background-color: #5758BB;
@@ -166,6 +164,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    height: 95%;
     margin-bottom: 1em;
     background-color: #fff;
     border-radius: 10px;
@@ -203,8 +202,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    max-width: 75%;
     min-height: 50px;
+    padding: 5px 10px;
     border: #fff solid 2px;
     position: absolute;
     top: 50%;
@@ -242,6 +242,13 @@ body {
 
 .img6::after {
     content: 'Play with leaves';
+}
+
+.portfolio-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .portfolio-title {
