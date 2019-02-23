@@ -63,9 +63,9 @@ body {
 }
 
 .brand-name {
-    margin-right: 150px;
+    margin-right: 100px;
     font-family: 'Lobster', cursive;
-    font-size: 30px;
+    font-size: 60px;
     color: #5758BB;
 }
 
@@ -298,10 +298,12 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 0;
     }
 
     .brand-name {
         margin-right: 0;
+        font-size: 45px;
     }
 
     .page-title {
